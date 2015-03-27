@@ -1,0 +1,11 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>Count Output</name>
+  <dataSet>A Data Set</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>Infected</string>
+  </sourceIds>
+  <fileName>Infected.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

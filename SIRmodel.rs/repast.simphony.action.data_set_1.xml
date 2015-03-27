@@ -1,0 +1,43 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>A Data Set</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-1215367386</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map">
+    <entry>
+      <string>Susceptible</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>SIRmodel.AgentSusceptible</typeName>
+        <id>Susceptible</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Infected</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>SIRmodel.AgentInfected</typeName>
+        <id>Infected</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Recovered</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>SIRmodel.AgentRecovered</typeName>
+        <id>Recovered</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+  </countSources>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>
